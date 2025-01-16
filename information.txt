@@ -1,0 +1,77 @@
+date: 10/1/2025 time:  23:54 hours
+
+i decided to document all the crap i am putting on this project just so that i can re live the same moment once again when i read it again
+well whatever i am working on the corr() betweeen the concepts of the datasets especially the network and the os as the irregularity on the datasets 
+has caused me a great deal of tension
+
+i should probably run a search through the dataset with a certain motive to make sure the datset is not too fancy
+
+i would like it to generalize more and not be a master of the training session #kudos to overfitting-the real bitch 
+
+im probably wondering what type of algo to use i could probably build a small one 
+
+i do plan on popping some questionalbe rows myself tbh
+
+here are the corr() between the os columns:
+method and method_encoded: 0.99
+method_encoded and method: 0.99
+pathindicator and Path: 0.77
+Path and pathindicator: 0.77
+method and full_label: 0.75
+full_label and method: 0.75
+write and encodedOperation: 0.75
+encodedOperation and write: 0.75
+full_label and method_encoded: 0.74
+method_encoded and full_label: 0.74
+goal_encoded and binarylabel: 0.72
+binarylabel and goal_encoded: 0.72
+sharemodes and option: 0.72
+option and sharemodes: 0.72
+label and binarylabel: 0.69
+binarylabel and label: 0.69
+goal_encoded and goal: 0.69
+goal and goal_encoded: 0.69
+family_encoded and label: 0.67
+label and family_encoded: 0.67
+family_encoded and family_gene: 0.66
+family_gene and family_encoded: 0.66
+Result and Detail: 0.64
+Detail and Result: 0.64
+sharemodes and write: 0.57
+write and sharemodes: 0.57
+goal and family_gene: 0.57
+family_gene and goal: 0.57
+encodedResult and Result: 0.51
+Result and encodedResult: 0.51
+option and write: 0.50
+Correlations of 'goal' with other columns:
+goal and goal_encoded: 0.69
+goal and family_gene: 0.57
+goal and family_encoded: 0.29
+goal and keylog: 0.19
+goal and encodedOperation: 0.14
+goal and write: 0.10
+goal and Result: 0.04
+goal and Operation: 0.04
+goal and encodedResult: 0.03
+goal and read: 0.03
+goal and label: 0.02
+goal and Length: 0.02
+goal and num: 0.02
+goal and Detail: 0.02
+goal and binarylabel: 0.01
+goal and sharemodes: 0.00
+goal and option: -0.02
+goal and network: -0.04
+goal and security: -0.04
+goal and access: -0.04
+goal and Path: -0.10
+goal and bkdoor: -0.13
+goal and pathindicator: -0.15
+goal and method: -0.29
+goal and method_encoded: -0.30
+goal and full_label: -0.30
+goal and Filename: -0.32
+goal and infosteal: nan
+goal and rootkits: nan
+goal and infosteal_encoded: nan

@@ -27,5 +27,5 @@ model.fit(X_train, y_train)
 # Evaluate and save the model and scaler
 accuracy = model.score(X_test, y_test)
 joblib.dump(model, '../../models/os_final_knn_model.pkl')
-joblib.dump(scaler, '../../scalers/final scalers/os_final_scaler.pkl')
+joblib.dump(scaler, '../../app scalers/final app model train scalers/os_final_scaler.pkl')
 print(accuracy)

@@ -36,4 +36,4 @@ accuracy = model.score(X_test, y_test.to_numpy())
 print("Model Accuracy:", accuracy)
 
 joblib.dump(model, '../../models/hardware_final_knn_model.pkl')
-joblib.dump(scaler, '../../scalers/final scalers/hardware_final_scaler.pkl')
+joblib.dump(scaler, '../../app scalers/final app model train scalers/hardware_final_scaler.pkl')

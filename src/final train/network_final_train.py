@@ -46,7 +46,7 @@ accuracy = model.score(X_test, y_test)
 
 try:
     joblib.dump(model, '../../models/network_final_knn_model.pkl')
-    joblib.dump(scaler, '../../scalers/final scalers/network_final_scaler.pkl')
+    joblib.dump(scaler, '../../app scalers/final app model train scalers/network_final_scaler.pkl')
 except Exception as e:
     print(f"Error saving model or scaler: {e}")
 

@@ -1,4 +1,4 @@
-# Network and Malware Monitor
+## TrojaNix app
 
 ## Overview
 The **Network and Malware Monitor** is a Python-based application that provides system performance monitoring and malware detection capabilities. It uses real-time network and CPU performance graphs along with scanning tools to identify potential malware threats in your files or directories.

@@ -28,19 +28,3 @@ The **Network and Malware Monitor** is a Python-based application that provides 
 - Includes features like scrolling output logs and real-time graph rendering.
 - Provides interactive buttons for starting scans and monitoring the system.
 
----
-
-## Prerequisites
-Ensure the following Python libraries are installed before running the application:
-- `os`
-- `time`
-- `hashlib`
-- `socket`
-- `psutil`
-- `pandas`
-- `tkinter` (bundled with Python)
-- `matplotlib`
-
-To install missing libraries, use:
-```bash
-pip install psutil pandas matplotlib

@@ -28,3 +28,5 @@ The **Network and Malware Monitor** is a Python-based application that provides 
 - Includes features like scrolling output logs and real-time graph rendering.
 - Provides interactive buttons for starting scans and monitoring the system.
 
+
+### Due to the larger natural size of the file the application we couldnt push the dataset and app on the Devpost, but we would like to provide you with a glimpse of what the app can do on github itself just clone the repo and install the dependencies on the requirements.txt file and get going 
